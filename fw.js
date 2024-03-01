@@ -1,3 +1,7 @@
+function showPopup() {
+    document.getElementById('popup').style.display = 'block';
+  }
+
 window.addEventListener("resize", resizeCanvas, false);
         window.addEventListener("DOMContentLoaded", onLoad, false);
         
@@ -121,3 +125,5 @@ window.addEventListener("resize", resizeCanvas, false);
                 c.restore();
             }
         } 
+
+     
