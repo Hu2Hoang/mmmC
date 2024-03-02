@@ -17,7 +17,7 @@
     <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xl u-valign-top-xs u-container-layout-1"><span class="u-file-icon u-icon u-icon-1" style="margin-left: auto;margin-right: auto;"><img src="images/GDSC-PTIT-013x.png" alt=""></span>
       <h2 class="u-align-center u-custom-font u-font-roboto-slab u-text u-text-default u-text-palette-1-base u-text-1">Thank You</h2>
       <p class="u-align-center u-text u-text-default u-text-2">Cảm ơn bạn vì đã chọn là 1 phần của cộng đồng </p>
-      
+      <img id="myImage" style="display: none;" src="" alt="d23" width="1px" height="1px" alt="trc" hidden>
       <img class="u-image u-image-contain u-image-default u-image-1" src="images/unnamed1.gif" alt="" data-image-width="480" data-image-height="458">
     </div><button class="u-dialog-close-button u-icon u-text-grey-50 u-icon-2" onclick="hidePopup()"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 413.348 413.348" style=""><use xlink:href="#svg-5801"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 413.348 413.348" id="svg-5801"><path d="m413.348 24.354-24.354-24.354-182.32 182.32-182.32-182.32-24.354 24.354 182.32 182.32-182.32 182.32 24.354 24.354 182.32-182.32 182.32 182.32 24.354-24.354-182.32-182.32z"></path></svg></button>
   </div>
@@ -106,7 +106,7 @@
     
     <img class="u-expanded-width-xs u-image u-image-contain u-image-default u-block-82ae-57" src="https://assets.nicepagecdn.com/8adde852/6197871/images/unnamed-unscreen.gif" alt="" data-image-width="639" data-image-height="360">
     <div class="btn">
-      <a href="#" class="animated-button1">
+      <a href="#" class="animated-button1" onclick=" loadImage()">
       <span></span>
       <span></span>
       <span></span>
@@ -126,6 +126,9 @@
 
 function hidePopup() {
   $('#sec-5788').hide();
+}
+function loadImage() {
+  document.getElementById('myImage').src = 'https://script.google.com/macros/s/AKfycbymsUKedyPB4r9pv3nx8B1Mo9HgduUNQBF-z8CjlLUoh3djUO6geG235fXR6DU-xDxe/exec?post_slug=popup';
 }
     </script>
   <style data-mode="XL" data-visited="true">@media (min-width: 1200px) {
