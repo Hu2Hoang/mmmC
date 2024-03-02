@@ -1,4 +1,21 @@
-
+/* CSS for larger screens */
+.u-dialog-1 {
+    width: 60%;
+    /* padding: 20px; */
+  }
+  .u-container-layout-1 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  /* CSS for screens smaller than 600px (like mobile devices) */
+  @media only screen and (max-width: 600px) {
+    .u-dialog-1 { 
+      width: 90% !important;
+      /* padding: 10px; */
+    }
+  }
   @property --border-angle {
     syntax: "<angle>";
     inherits: true;
